@@ -1,0 +1,94 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"distutils_add_cython_module",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake/modules/Distutils.cmake",
+			"src/pybind/rgw/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "rgw::@3a502e2f23e6e30bc743"
+		}
+	],
+	"id" : "cython_rgw::@0b273a402095c5988541",
+	"name" : "cython_rgw",
+	"paths" : 
+	{
+		"build" : "src/pybind/rgw",
+		"source" : "src/pybind/rgw"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/pybind/rgw/CMakeFiles/cython_rgw",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/pybind/rgw/CMakeFiles/cython_rgw.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "src/pybind/rgw/rgw.pyx",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

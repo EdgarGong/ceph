@@ -1,0 +1,94 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"distutils_add_cython_module",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake/modules/Distutils.cmake",
+			"src/pybind/rados/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "rados::@de05559f4338c8534979"
+		}
+	],
+	"id" : "cython_rados::@c53634fd16093976fdd3",
+	"name" : "cython_rados",
+	"paths" : 
+	{
+		"build" : "src/pybind/rados",
+		"source" : "src/pybind/rados"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/pybind/rados/CMakeFiles/cython_rados",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/pybind/rados/CMakeFiles/cython_rados.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "src/pybind/rados/rados.pyx",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/librbd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 226,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 230,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_librbd_fsx"
+			],
+			"targetId" : "ceph_test_librbd_fsx::@76a1b2e7c7e6cc3169fd",
+			"targetIndex" : 98,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_librbd"
+			],
+			"targetId" : "ceph_test_librbd::@76a1b2e7c7e6cc3169fd",
+			"targetIndex" : 97,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/librbd",
+		"source" : "src/test/librbd"
+	}
+}

@@ -1,0 +1,103 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"src/pybind/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "cython_rados::@c53634fd16093976fdd3"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "cython_rbd::@aeb6d9c0bf9cc4f51b5d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "cython_cephfs::@5850ea0f9c73aab85474"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cython_rgw::@0b273a402095c5988541"
+		}
+	],
+	"id" : "cython_modules::@def73f038a73c51bbc90",
+	"name" : "cython_modules",
+	"paths" : 
+	{
+		"build" : "src/pybind",
+		"source" : "src/pybind"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/pybind/CMakeFiles/cython_modules",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/pybind/CMakeFiles/cython_modules.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

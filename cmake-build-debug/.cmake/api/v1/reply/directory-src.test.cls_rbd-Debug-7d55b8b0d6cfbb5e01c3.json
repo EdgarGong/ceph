@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/cls_rbd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_cls_rbd"
+			],
+			"targetId" : "ceph_test_cls_rbd::@7a2286e86878599edb57",
+			"targetIndex" : 73,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/cls_rbd",
+		"source" : "src/test/cls_rbd"
+	}
+}

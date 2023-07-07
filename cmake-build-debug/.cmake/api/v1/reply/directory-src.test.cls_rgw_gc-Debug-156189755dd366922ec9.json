@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/cls_rgw_gc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_cls_rgw_gc"
+			],
+			"targetId" : "ceph_test_cls_rgw_gc::@2dce4c133b16a814e28d",
+			"targetIndex" : 76,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/cls_rgw_gc",
+		"source" : "src/test/cls_rgw_gc"
+	}
+}

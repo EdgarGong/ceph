@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/cls_cmpomap/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_cls_cmpomap"
+			],
+			"targetId" : "ceph_test_cls_cmpomap::@1c2f72ba35fbe7cf7594",
+			"targetIndex" : 65,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/cls_cmpomap",
+		"source" : "src/test/cls_cmpomap"
+	}
+}

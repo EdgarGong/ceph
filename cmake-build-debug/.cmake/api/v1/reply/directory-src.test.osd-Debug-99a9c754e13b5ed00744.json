@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/osd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rados"
+			],
+			"targetId" : "ceph_test_rados::@b4090db41fc2ddf87e45",
+			"targetIndex" : 122,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_osd_stale_read"
+			],
+			"targetId" : "ceph_test_osd_stale_read::@b4090db41fc2ddf87e45",
+			"targetIndex" : 121,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/osd",
+		"source" : "src/test/osd"
+	}
+}

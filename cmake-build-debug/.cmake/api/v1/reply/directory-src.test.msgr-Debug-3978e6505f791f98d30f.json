@@ -1,0 +1,93 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/msgr/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_async_driver"
+			],
+			"targetId" : "ceph_test_async_driver::@32aac1eb974b787a0dec",
+			"targetIndex" : 58,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_msgr"
+			],
+			"targetId" : "ceph_test_msgr::@32aac1eb974b787a0dec",
+			"targetIndex" : 111,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_async_networkstack"
+			],
+			"targetId" : "ceph_test_async_networkstack::@32aac1eb974b787a0dec",
+			"targetIndex" : 59,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_perf_msgr_server"
+			],
+			"targetId" : "ceph_perf_msgr_server::@32aac1eb974b787a0dec",
+			"targetIndex" : 47,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_perf_msgr_client"
+			],
+			"targetId" : "ceph_perf_msgr_client::@32aac1eb974b787a0dec",
+			"targetIndex" : 46,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/msgr",
+		"source" : "src/test/msgr"
+	}
+}

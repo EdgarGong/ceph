@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/pybind/mgr/dashboard/frontend/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 144,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/share/ceph/mgr/dashboard/frontend",
+			"paths" : 
+			[
+				"cmake-build-debug/src/pybind/mgr/dashboard/frontend/dist"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/share/ceph/mgr/dashboard/frontend",
+			"paths" : 
+			[
+				"cmake-build-debug/src/pybind/mgr/dashboard/frontend/package.json"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/pybind/mgr/dashboard/frontend",
+		"source" : "src/pybind/mgr/dashboard/frontend"
+	}
+}

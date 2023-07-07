@@ -1,0 +1,13 @@
+# Target labels
+ rocksdb_ext
+# Source files and their labels
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/rocksdb_ext
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/rocksdb_ext.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/rocksdb_ext-complete.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/rocksdb_ext-prefix/src/rocksdb_ext-stamp/rocksdb_ext-build.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/rocksdb_ext-prefix/src/rocksdb_ext-stamp/rocksdb_ext-configure.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/rocksdb_ext-prefix/src/rocksdb_ext-stamp/rocksdb_ext-download.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/rocksdb_ext-prefix/src/rocksdb_ext-stamp/rocksdb_ext-install.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/rocksdb_ext-prefix/src/rocksdb_ext-stamp/rocksdb_ext-mkdir.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/rocksdb_ext-prefix/src/rocksdb_ext-stamp/rocksdb_ext-patch.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/rocksdb_ext-prefix/src/rocksdb_ext-stamp/rocksdb_ext-update.rule

@@ -1,0 +1,13 @@
+# Target labels
+ arrow_ext
+# Source files and their labels
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/arrow_ext
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/arrow_ext.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/arrow_ext-complete.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/arrow_ext-prefix/src/arrow_ext-stamp/arrow_ext-build.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/arrow_ext-prefix/src/arrow_ext-stamp/arrow_ext-configure.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/arrow_ext-prefix/src/arrow_ext-stamp/arrow_ext-download.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/arrow_ext-prefix/src/arrow_ext-stamp/arrow_ext-install.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/arrow_ext-prefix/src/arrow_ext-stamp/arrow_ext-mkdir.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/arrow_ext-prefix/src/arrow_ext-stamp/arrow_ext-patch.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/arrow_ext-prefix/src/arrow_ext-stamp/arrow_ext-update.rule

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/exporter/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph-exporter"
+			],
+			"targetId" : "ceph-exporter::@47edf0f9acde1e7f8e6a",
+			"targetIndex" : 20,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/exporter",
+		"source" : "src/exporter"
+	}
+}

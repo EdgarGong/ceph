@@ -1,0 +1,13 @@
+# Target labels
+ mgr-rook-client
+# Source files and their labels
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/pybind/mgr/rook/CMakeFiles/mgr-rook-client
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/pybind/mgr/rook/CMakeFiles/mgr-rook-client.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/pybind/mgr/rook/CMakeFiles/mgr-rook-client-complete.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/pybind/mgr/rook/mgr-rook-client-prefix/src/mgr-rook-client-stamp/mgr-rook-client-build.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/pybind/mgr/rook/mgr-rook-client-prefix/src/mgr-rook-client-stamp/mgr-rook-client-configure.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/pybind/mgr/rook/mgr-rook-client-prefix/src/mgr-rook-client-stamp/mgr-rook-client-download.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/pybind/mgr/rook/mgr-rook-client-prefix/src/mgr-rook-client-stamp/mgr-rook-client-install.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/pybind/mgr/rook/mgr-rook-client-prefix/src/mgr-rook-client-stamp/mgr-rook-client-mkdir.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/pybind/mgr/rook/mgr-rook-client-prefix/src/mgr-rook-client-stamp/mgr-rook-client-patch.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/pybind/mgr/rook/mgr-rook-client-prefix/src/mgr-rook-client-stamp/mgr-rook-client-update.rule

@@ -1,0 +1,543 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./AuthClientHandler.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./AuthMethodList.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./AuthRegistry.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./AuthSessionHandler.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./Crypto.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./KeyRing.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./RotatingKeyRing.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./cephx/CephxAuthorizeHandler.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./cephx/CephxClientHandler.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./cephx/CephxProtocol.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./cephx/CephxSessionHandler.cc.o"
+		},
+		{
+			"path" : "src/auth/CMakeFiles/common-auth-objs.dir/./none/AuthNoneAuthorizeHandler.cc.o"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"add_dependencies",
+			"build_boost",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/auth/CMakeLists.txt",
+			"CMakeLists.txt",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 678,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 90,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 96,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 104,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 107,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 111,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 115,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 140,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 141,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 194,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 203,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 253,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 74,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 83,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 87,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 588,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 681,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 698,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 323,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 347,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-ftemplate-depth-1024"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wpessimizing-move"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wredundant-move"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-DCEPH_DEBUG_MUTEX"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-D_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 21,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__linux__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 28,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "legacy-option-headers::@620d65bafa4beabfca7b"
+		}
+	],
+	"id" : "common-auth-objs::@3595fc627d656939e222",
+	"name" : "common-auth-objs",
+	"paths" : 
+	{
+		"build" : "src/auth",
+		"source" : "src/auth"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/AuthClientHandler.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/AuthMethodList.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/AuthRegistry.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/AuthSessionHandler.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/Crypto.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/KeyRing.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/RotatingKeyRing.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/cephx/CephxAuthorizeHandler.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/cephx/CephxClientHandler.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/cephx/CephxProtocol.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/cephx/CephxSessionHandler.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/auth/none/AuthNoneAuthorizeHandler.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

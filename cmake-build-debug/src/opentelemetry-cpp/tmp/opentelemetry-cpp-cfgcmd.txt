@@ -1,0 +1,1 @@
+cmd='/snap/clion/241/bin/cmake/linux/x64/bin/cmake;-DCMAKE_POSITION_INDEPENDENT_CODE=ON;-DWITH_JAEGER=ON;-DBUILD_TESTING=OFF;-DCMAKE_BUILD_TYPE=Release;-DWITH_EXAMPLES=OFF;-DBoost_INCLUDE_DIR=/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

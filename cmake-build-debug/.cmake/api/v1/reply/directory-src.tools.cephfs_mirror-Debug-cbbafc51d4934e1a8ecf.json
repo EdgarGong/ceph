@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/tools/cephfs_mirror/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/cephfs-mirror"
+			],
+			"targetId" : "cephfs-mirror::@9e29273694e10407ce2b",
+			"targetIndex" : 180,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/tools/cephfs_mirror",
+		"source" : "src/tools/cephfs_mirror"
+	}
+}

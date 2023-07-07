@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/lazy-omap-stats/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_lazy_omap_stats"
+			],
+			"targetId" : "ceph_test_lazy_omap_stats::@daddd2cf51b26233a4c1",
+			"targetIndex" : 89,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/lazy-omap-stats",
+		"source" : "src/test/lazy-omap-stats"
+	}
+}

@@ -1,0 +1,543 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libcls_rgw.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_dependencies",
+			"build_boost",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/cls/CMakeLists.txt",
+			"src/json_spirit/CMakeLists.txt",
+			"CMakeLists.txt",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 203,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 214,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 204,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 678,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 90,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 96,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 103,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 104,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 107,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 111,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 115,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 140,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 141,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 179,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 194,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 203,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 253,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 74,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 83,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 87,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 588,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 95,
+				"parent" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 205,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 681,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 698,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 323,
+				"parent" : 10
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 347,
+				"parent" : 10
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -fPIC -fvisibility=hidden -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-ftemplate-depth-1024"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wpessimizing-move"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-Wredundant-move"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-DCEPH_DEBUG_MUTEX"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-D_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 24,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__linux__"
+				},
+				{
+					"define" : "cls_rgw_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 28,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw/driver/rados"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/edgar/code/clionProject/ceph/src/spawn/include"
+				},
+				{
+					"backtrace" : 30,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 32,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 33,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "json_spirit::@f1198e6cb77a3c4d25a1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "fmt::@1854e85baaeea9f7b2b9"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "common_utf8::@af79f3804eddddbfa7f1"
+		}
+	],
+	"id" : "cls_rgw::@d4a621f5a2791e5688e3",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib/rados-classes"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "lib/rados-classes"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libfmtd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libjson_spirit.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib/libcommon_utf8.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--as-needed -latomic",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "cls_rgw",
+	"nameOnDisk" : "libcls_rgw.so",
+	"paths" : 
+	{
+		"build" : "src/cls",
+		"source" : "src/cls"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cls/rgw/cls_rgw.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cls/rgw/cls_rgw_ops.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cls/rgw/cls_rgw_types.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/common/ceph_json.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/compressor/zlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/compressor",
+			"paths" : 
+			[
+				"lib/libceph_zlib.so.2.0.0",
+				"lib/libceph_zlib.so.2"
+			],
+			"targetId" : "ceph_zlib::@8985da8062b3650c6cda",
+			"targetIndex" : 173,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/compressor",
+			"paths" : 
+			[
+				"lib/libceph_zlib.so"
+			],
+			"targetId" : "ceph_zlib::@8985da8062b3650c6cda",
+			"targetIndex" : 173,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/compressor/zlib",
+		"source" : "src/compressor/zlib"
+	}
+}

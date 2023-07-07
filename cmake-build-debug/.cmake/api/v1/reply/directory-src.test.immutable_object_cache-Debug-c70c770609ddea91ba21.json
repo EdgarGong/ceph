@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/immutable_object_cache/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_immutable_obj_cache"
+			],
+			"targetId" : "ceph_test_immutable_obj_cache::@3fcefae1186ac2d280c3",
+			"targetIndex" : 83,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/immutable_object_cache",
+		"source" : "src/test/immutable_object_cache"
+	}
+}

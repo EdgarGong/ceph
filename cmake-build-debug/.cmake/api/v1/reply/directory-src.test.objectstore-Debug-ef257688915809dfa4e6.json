@@ -1,0 +1,99 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/objectstore/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_perf_objectstore"
+			],
+			"targetId" : "ceph_perf_objectstore::@b527e544a8d23cdd2ec4",
+			"targetIndex" : 48,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_objectstore"
+			],
+			"targetId" : "ceph_test_objectstore::@b527e544a8d23cdd2ec4",
+			"targetIndex" : 120,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_keyvaluedb"
+			],
+			"targetId" : "ceph_test_keyvaluedb::@b527e544a8d23cdd2ec4",
+			"targetIndex" : 86,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_alloc_replay"
+			],
+			"targetId" : "ceph_test_alloc_replay::@b527e544a8d23cdd2ec4",
+			"targetIndex" : 57,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/objectstore",
+		"source" : "src/test/objectstore"
+	}
+}

@@ -1,0 +1,152 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies",
+			"add_tracing_library"
+		],
+		"files" : 
+		[
+			"src/tracing/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 14
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "osd_tp::@71d80b6d6e3213ade5c8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "rados_tp::@71d80b6d6e3213ade5c8"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "os_tp::@71d80b6d6e3213ade5c8"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "bluestore_tp::@71d80b6d6e3213ade5c8"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "rgw_op_tp::@71d80b6d6e3213ade5c8"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "rgw_rados_tp::@71d80b6d6e3213ade5c8"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "rbd_tp::@71d80b6d6e3213ade5c8"
+		}
+	],
+	"id" : "tracepoint_libraries::@71d80b6d6e3213ade5c8",
+	"name" : "tracepoint_libraries",
+	"paths" : 
+	{
+		"build" : "src/tracing",
+		"source" : "src/tracing"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

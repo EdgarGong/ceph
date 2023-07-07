@@ -1,0 +1,639 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libcpp_redis.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"add_dependencies",
+			"build_boost",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/cpp_redis/CMakeLists.txt",
+			"CMakeLists.txt",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 139,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 678,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 90,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 96,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 104,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 107,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 111,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 115,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 140,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 141,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 194,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 203,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 253,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 74,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 83,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 87,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 588,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 681,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 698,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -W -Wall -Wextra -O3 -Og -g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-ftemplate-depth-1024"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wpessimizing-move"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wredundant-move"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-DCEPH_DEBUG_MUTEX"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-D_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 21,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__linux__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/edgar/code/clionProject/ceph/src/cpp_redis/includes"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/edgar/code/clionProject/ceph/src/cpp_redis/deps/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/edgar/code/clionProject/ceph/src/cpp_redis/tacopie/includes"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 28,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "tacopie::@48d06b978f3ba48d9c50"
+		}
+	],
+	"id" : "cpp_redis::@72f6d88c100f2bdc430d",
+	"name" : "cpp_redis",
+	"nameOnDisk" : "libcpp_redis.a",
+	"paths" : 
+	{
+		"build" : "src/cpp_redis",
+		"source" : "src/cpp_redis"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/builders/array_builder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/builders/builders_factory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/builders/bulk_string_builder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/builders/error_builder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/builders/integer_builder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/builders/reply_builder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/builders/simple_string_builder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/core/client.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/core/reply.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/core/sentinel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/core/subscriber.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/misc/logger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/network/redis_connection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp_redis/sources/network/tcp_client.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/builders/array_builder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/builders/builder_iface.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/builders/builders_factory.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/builders/bulk_string_builder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/builders/error_builder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/builders/integer_builder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/builders/reply_builder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/builders/simple_string_builder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/core/client.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/core/reply.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/core/sentinel.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/core/subscriber.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/misc/error.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/misc/logger.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/misc/macro.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/network/redis_connection.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/network/tcp_client.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cpp_redis/includes/cpp_redis/network/tcp_client_iface.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

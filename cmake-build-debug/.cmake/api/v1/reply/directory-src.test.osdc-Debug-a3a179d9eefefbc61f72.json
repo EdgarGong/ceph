@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/osdc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_objectcacher_stress"
+			],
+			"targetId" : "ceph_test_objectcacher_stress::@bcc9c913e3991f67beaf",
+			"targetIndex" : 119,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/osdc",
+		"source" : "src/test/osdc"
+	}
+}

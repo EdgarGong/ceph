@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/rbd_mirror/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rbd_mirror"
+			],
+			"targetId" : "ceph_test_rbd_mirror::@5e76eb8c1073854bafce",
+			"targetIndex" : 158,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rbd_mirror_random_write"
+			],
+			"targetId" : "ceph_test_rbd_mirror_random_write::@5e76eb8c1073854bafce",
+			"targetIndex" : 159,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/rbd_mirror",
+		"source" : "src/test/rbd_mirror"
+	}
+}

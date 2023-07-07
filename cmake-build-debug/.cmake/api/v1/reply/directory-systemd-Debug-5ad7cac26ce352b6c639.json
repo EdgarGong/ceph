@@ -1,0 +1,229 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"systemd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/ceph-crash.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/ceph-fuse@.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/ceph-mds@.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/ceph-mgr@.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/ceph-mon@.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/ceph-osd@.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/ceph-radosgw@.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/ceph-rbd-mirror@.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/ceph-immutable-object-cache@.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/cephfs-mirror@.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"cmake-build-debug/systemd/rbdmap.service"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "/lib/systemd/system",
+			"paths" : 
+			[
+				"systemd/ceph.target",
+				"systemd/ceph-fuse.target",
+				"systemd/ceph-osd.target",
+				"systemd/ceph-mgr.target",
+				"systemd/ceph-mon.target",
+				"systemd/ceph-mds.target",
+				"systemd/ceph-radosgw.target",
+				"systemd/ceph-rbd-mirror.target",
+				"systemd/ceph-immutable-object-cache.target",
+				"systemd/ceph-volume@.service",
+				"systemd/cephfs-mirror.target"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "systemd",
+		"source" : "systemd"
+	}
+}

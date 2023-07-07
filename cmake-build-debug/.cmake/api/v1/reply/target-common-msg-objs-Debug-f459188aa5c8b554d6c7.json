@@ -1,0 +1,687 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./DispatchQueue.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./Message.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./Messenger.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./Connection.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./msg_types.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./compressor_registry.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/AsyncConnection.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/AsyncMessenger.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/Protocol.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/ProtocolV1.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/ProtocolV2.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/Event.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/EventSelect.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/PosixStack.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/Stack.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/crypto_onwire.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/compression_onwire.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/frames_v2.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/net_handler.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/EventEpoll.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/rdma/Infiniband.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/rdma/RDMAConnectedSocketImpl.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/rdma/RDMAIWARPConnectedSocketImpl.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/rdma/RDMAServerSocketImpl.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/rdma/RDMAIWARPServerSocketImpl.cc.o"
+		},
+		{
+			"path" : "src/msg/CMakeFiles/common-msg-objs.dir/./async/rdma/RDMAStack.cc.o"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"add_dependencies",
+			"build_boost",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/msg/CMakeLists.txt",
+			"CMakeLists.txt",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 678,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 90,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 96,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 104,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 107,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 111,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 115,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 140,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 141,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 179,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 194,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 203,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 253,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 74,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 83,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 87,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 588,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 681,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 698,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 323,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 347,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-ftemplate-depth-1024"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wpessimizing-move"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wredundant-move"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-DCEPH_DEBUG_MUTEX"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-D_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 20,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "__linux__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 25,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 28,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "common-msg-objs::@1282e65f5e5794421048",
+	"name" : "common-msg-objs",
+	"paths" : 
+	{
+		"build" : "src/msg",
+		"source" : "src/msg"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/DispatchQueue.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/Message.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/Messenger.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/Connection.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/msg_types.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/compressor_registry.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/AsyncConnection.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/AsyncMessenger.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/Protocol.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/ProtocolV1.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/ProtocolV2.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/Event.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/EventSelect.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/PosixStack.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/Stack.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/crypto_onwire.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/compression_onwire.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/frames_v2.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/net_handler.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/EventEpoll.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/rdma/Infiniband.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/rdma/RDMAConnectedSocketImpl.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/rdma/RDMAIWARPConnectedSocketImpl.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/rdma/RDMAServerSocketImpl.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/rdma/RDMAIWARPServerSocketImpl.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/msg/async/rdma/RDMAStack.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

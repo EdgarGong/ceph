@@ -1,0 +1,1 @@
+cmd='/snap/clion/241/bin/cmake/linux/x64/bin/cmake;-DBUILD_SHARED_LIBS=OFF;-DCMAKE_PREFIX_PATH=;-DCMAKE_C_COMPILER=/usr/bin/gcc-11;-DCMAKE_AR=/usr/bin/ar;-DCMAKE_BUILD_TYPE=Debug;-DCMAKE_INSTALL_PREFIX=/home/edgar/code/clionProject/ceph/cmake-build-debug/src/utf8proc/install;-DCMAKE_INSTALL_LIBDIR=lib;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

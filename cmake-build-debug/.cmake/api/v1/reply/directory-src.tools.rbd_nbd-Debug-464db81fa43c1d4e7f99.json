@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/tools/rbd_nbd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/rbd-nbd"
+			],
+			"targetId" : "rbd-nbd::@dbd7e9fd9564e2f84cfb",
+			"targetIndex" : 364,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/tools/rbd_nbd",
+		"source" : "src/tools/rbd_nbd"
+	}
+}

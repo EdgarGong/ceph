@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/libcephsqlite/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_libcephsqlite"
+			],
+			"targetId" : "ceph_test_libcephsqlite::@a34fc15f28f0c6b0c19b",
+			"targetIndex" : 96,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/libcephsqlite",
+		"source" : "src/test/libcephsqlite"
+	}
+}

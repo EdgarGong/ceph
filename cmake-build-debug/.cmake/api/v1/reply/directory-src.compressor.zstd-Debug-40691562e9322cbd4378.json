@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/compressor/zstd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/compressor",
+			"paths" : 
+			[
+				"lib/libceph_zstd.so.2.0.0",
+				"lib/libceph_zstd.so.2"
+			],
+			"targetId" : "ceph_zstd::@a7e2ec4dd31492c1682f",
+			"targetIndex" : 174,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/compressor",
+			"paths" : 
+			[
+				"lib/libceph_zstd.so"
+			],
+			"targetId" : "ceph_zstd::@a7e2ec4dd31492c1682f",
+			"targetIndex" : 174,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/compressor/zstd",
+		"source" : "src/compressor/zstd"
+	}
+}

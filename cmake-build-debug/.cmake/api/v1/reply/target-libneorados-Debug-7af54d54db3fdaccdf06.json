@@ -1,0 +1,311 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/liblibneorados.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"add_dependencies",
+			"build_boost",
+			"build_opentelemetry",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/neorados/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/BuildOpentelemetry.cmake",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 678,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 261,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 446,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 79,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 90,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 96,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 104,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 107,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 111,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 115,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 140,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 141,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 179,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 194,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 203,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 253,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 74,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 83,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 87,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 588,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 681,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 698,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 323,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 347,
+				"parent" : 6
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "opentelemetry-cpp::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "ceph-common::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "json_spirit::@f1198e6cb77a3c4d25a1"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "fmt::@1854e85baaeea9f7b2b9"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "crc32::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "common_utf8::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "arch::@d342cb40cd6973ea4176"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "extblkdev::@1a021b9442bb864ca036"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "cls_lock_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "osdc::@08f58d227b669c0988ad"
+		},
+		{
+			"id" : "neorados_objs::@20f41e0a54f957453770"
+		},
+		{
+			"id" : "neorados_api_obj::@20f41e0a54f957453770"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "erasure_code::@6bce9d9d0d8f53b2d0b1"
+		}
+	],
+	"id" : "libneorados::@20f41e0a54f957453770",
+	"name" : "libneorados",
+	"nameOnDisk" : "liblibneorados.a",
+	"paths" : 
+	{
+		"build" : "src/neorados",
+		"source" : "src/neorados"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/neorados/CMakeFiles/neorados_api_obj.dir/RADOS.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/neorados/CMakeFiles/neorados_objs.dir/RADOSImpl.cc.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

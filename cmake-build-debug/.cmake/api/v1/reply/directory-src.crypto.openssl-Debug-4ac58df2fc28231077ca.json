@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/crypto/openssl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/crypto",
+			"paths" : 
+			[
+				"lib/libceph_crypto_openssl.so"
+			],
+			"targetId" : "ceph_crypto_openssl::@0ce3d23b6f8fa9d1177b",
+			"targetIndex" : 35,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/crypto/openssl",
+		"source" : "src/crypto/openssl"
+	}
+}

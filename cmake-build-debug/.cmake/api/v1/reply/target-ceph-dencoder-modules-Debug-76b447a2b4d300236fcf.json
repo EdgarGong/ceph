@@ -1,0 +1,120 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies",
+			"add_denc_mod"
+		],
+		"files" : 
+		[
+			"src/tools/ceph-dencoder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 10
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "denc-mod-common::@41722d1353d049b5f4ac"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "denc-mod-osd::@41722d1353d049b5f4ac"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "denc-mod-rgw::@41722d1353d049b5f4ac"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "denc-mod-rbd::@41722d1353d049b5f4ac"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "denc-mod-cephfs::@41722d1353d049b5f4ac"
+		}
+	],
+	"id" : "ceph-dencoder-modules::@41722d1353d049b5f4ac",
+	"name" : "ceph-dencoder-modules",
+	"paths" : 
+	{
+		"build" : "src/tools/ceph-dencoder",
+		"source" : "src/tools/ceph-dencoder"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

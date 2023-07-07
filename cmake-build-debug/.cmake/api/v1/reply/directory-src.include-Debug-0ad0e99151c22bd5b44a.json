@@ -1,0 +1,139 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"src/include/libcephsqlite.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/rados",
+			"paths" : 
+			[
+				"src/include/rados/librados.h",
+				"src/include/rados/rados_types.h",
+				"src/include/rados/rados_types.hpp",
+				"src/include/rados/librados_fwd.hpp",
+				"src/include/rados/librados.hpp",
+				"src/include/buffer.h",
+				"src/include/buffer_fwd.h",
+				"src/include/inline_memory.h",
+				"src/include/page.h",
+				"src/include/crc32c.h",
+				"src/include/rados/objclass.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/radosstriper",
+			"paths" : 
+			[
+				"src/include/radosstriper/libradosstriper.h",
+				"src/include/radosstriper/libradosstriper.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/rbd",
+			"paths" : 
+			[
+				"src/include/rbd/features.h",
+				"src/include/rbd/librbd.h",
+				"src/include/rbd/librbd.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/rados",
+			"paths" : 
+			[
+				"src/include/rados/librgw.h",
+				"src/include/rados/rgw_file.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/cephfs",
+			"paths" : 
+			[
+				"src/include/cephfs/libcephfs.h",
+				"src/include/cephfs/ceph_ll_client.h",
+				"src/include/cephfs/types.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/include",
+		"source" : "src/include"
+	}
+}

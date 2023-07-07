@@ -1,0 +1,10 @@
+#ifndef CEPH_VERSION_H
+#define CEPH_VERSION_H
+
+#define CEPH_GIT_VER 0f303c01499b4da2f3ac076745f9cd93e1b23ca2
+#define CEPH_GIT_NICE_VER "18.0.0-4720-g0f303c01499"
+#define CEPH_RELEASE 18
+#define CEPH_RELEASE_NAME "reef"
+#define CEPH_RELEASE_TYPE "dev"
+
+#endif

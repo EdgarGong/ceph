@@ -1,0 +1,81 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/libradosstriper/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rados_striper_api_striping"
+			],
+			"targetId" : "ceph_test_rados_striper_api_striping::@6e6bf048fe060909baaf",
+			"targetIndex" : 157,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rados_striper_api_io"
+			],
+			"targetId" : "ceph_test_rados_striper_api_io::@6e6bf048fe060909baaf",
+			"targetIndex" : 156,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rados_striper_api_aio"
+			],
+			"targetId" : "ceph_test_rados_striper_api_aio::@6e6bf048fe060909baaf",
+			"targetIndex" : 155,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/libradosstriper",
+		"source" : "src/test/libradosstriper"
+	}
+}

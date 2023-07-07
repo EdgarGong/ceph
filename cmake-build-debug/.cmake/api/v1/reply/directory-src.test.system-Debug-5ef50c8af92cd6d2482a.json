@@ -1,0 +1,69 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/system/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rados_delete_pools_parallel"
+			],
+			"targetId" : "ceph_test_rados_delete_pools_parallel::@401cbae5a5ec74496665",
+			"targetIndex" : 151,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rados_list_parallel"
+			],
+			"targetId" : "ceph_test_rados_list_parallel::@401cbae5a5ec74496665",
+			"targetIndex" : 152,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rados_open_pools_parallel"
+			],
+			"targetId" : "ceph_test_rados_open_pools_parallel::@401cbae5a5ec74496665",
+			"targetIndex" : 154,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/system",
+		"source" : "src/test/system"
+	}
+}

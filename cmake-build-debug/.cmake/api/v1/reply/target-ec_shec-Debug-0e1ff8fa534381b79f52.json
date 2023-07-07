@@ -1,0 +1,491 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libec_shec.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/erasure-code/shec/CMakeLists.txt",
+			"src/CMakeLists.txt",
+			"CMakeLists.txt",
+			"src/erasure-code/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 90,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 96,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 194,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 253,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 74,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 83,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 8
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 588,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 95,
+				"parent" : 16
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 8,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 681,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 698,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 323,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 347,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 6,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 7,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 104,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 107,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 111,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 115,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 179,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 203,
+				"parent" : 8
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "gf-complete_objs::@a69a7308384ee90b875f"
+		},
+		{
+			"id" : "jerasure_objs::@a69a7308384ee90b875f"
+		},
+		{
+			"id" : "shec_utils::@64488a97bd40372a572c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ec_shec_generic::@64488a97bd40372a572c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "ec_shec_sse3::@64488a97bd40372a572c"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ec_shec_sse4::@64488a97bd40372a572c"
+		}
+	],
+	"id" : "ec_shec::@64488a97bd40372a572c",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib/ceph/erasure-code"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "lib/ceph/erasure-code"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lresolv",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--as-needed -latomic",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ec_shec",
+	"nameOnDisk" : "libec_shec.so",
+	"paths" : 
+	{
+		"build" : "src/erasure-code/shec",
+		"source" : "src/erasure-code/shec"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_cpu.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_wgen.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w16.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w32.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w64.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w128.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_general.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w4.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_rand.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w8.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure/src/cauchy.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure/src/galois.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure/src/jerasure.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure/src/liberation.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure/src/reed_sol.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure_init.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/shec/CMakeFiles/shec_utils.dir/__/ErasureCode.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/shec/CMakeFiles/shec_utils.dir/ErasureCodePluginShec.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/shec/CMakeFiles/shec_utils.dir/ErasureCodeShec.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/shec/CMakeFiles/shec_utils.dir/ErasureCodeShecTableCache.cc.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/shec/CMakeFiles/shec_utils.dir/determinant.c.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

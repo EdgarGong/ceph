@@ -1,0 +1,201 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/tracing/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librados_tp.so.2.0.0",
+				"lib/librados_tp.so.2"
+			],
+			"targetId" : "rados_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 350,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librados_tp.so"
+			],
+			"targetId" : "rados_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 350,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libosd_tp.so.1.0.0",
+				"lib/libosd_tp.so.1"
+			],
+			"targetId" : "osd_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 341,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libosd_tp.so"
+			],
+			"targetId" : "osd_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 341,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libos_tp.so.1.0.0",
+				"lib/libos_tp.so.1"
+			],
+			"targetId" : "os_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 338,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libos_tp.so"
+			],
+			"targetId" : "os_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 338,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librgw_rados_tp.so.2.0.0",
+				"lib/librgw_rados_tp.so.2"
+			],
+			"targetId" : "rgw_rados_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 387,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librgw_rados_tp.so"
+			],
+			"targetId" : "rgw_rados_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 387,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librgw_op_tp.so.2.0.0",
+				"lib/librgw_op_tp.so.2"
+			],
+			"targetId" : "rgw_op_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 385,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librgw_op_tp.so"
+			],
+			"targetId" : "rgw_op_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 385,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librbd_tp.so.1.0.0",
+				"lib/librbd_tp.so.1"
+			],
+			"targetId" : "rbd_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 378,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librbd_tp.so"
+			],
+			"targetId" : "rbd_tp::@71d80b6d6e3213ade5c8",
+			"targetIndex" : 378,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/tracing",
+		"source" : "src/tracing"
+	}
+}

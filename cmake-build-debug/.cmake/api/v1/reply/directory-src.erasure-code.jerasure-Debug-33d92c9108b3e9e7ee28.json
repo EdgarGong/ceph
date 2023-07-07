@@ -1,0 +1,99 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/erasure-code/jerasure/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/erasure-code",
+			"paths" : 
+			[
+				"lib/libec_jerasure.so"
+			],
+			"targetId" : "ec_jerasure::@a69a7308384ee90b875f",
+			"targetIndex" : 271,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/erasure-code",
+			"paths" : 
+			[
+				"lib/libec_jerasure_generic.so"
+			],
+			"targetId" : "ec_jerasure_generic::@a69a7308384ee90b875f",
+			"targetIndex" : 272,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/erasure-code",
+			"paths" : 
+			[
+				"lib/libec_jerasure_sse3.so"
+			],
+			"targetId" : "ec_jerasure_sse3::@a69a7308384ee90b875f",
+			"targetIndex" : 273,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/erasure-code",
+			"paths" : 
+			[
+				"lib/libec_jerasure_sse4.so"
+			],
+			"targetId" : "ec_jerasure_sse4::@a69a7308384ee90b875f",
+			"targetIndex" : 274,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/erasure-code/jerasure",
+		"source" : "src/erasure-code/jerasure"
+	}
+}

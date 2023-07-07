@@ -1,0 +1,1380 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/ceph_test_cls_rgw_meta"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"build_boost",
+			"build_arrow",
+			"find_package",
+			"build_opentelemetry",
+			"add_dependencies",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/test/CMakeLists.txt",
+			"src/rgw/CMakeLists.txt",
+			"src/rgw/driver/dbstore/CMakeLists.txt",
+			"src/global/CMakeLists.txt",
+			"src/CMakeLists.txt",
+			"src/extblkdev/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/BuildArrow.cmake",
+			"src/cpp_redis/CMakeLists.txt",
+			"cmake/modules/FindOpenLDAP.cmake",
+			"cmake/modules/BuildOpentelemetry.cmake",
+			"src/rgw/driver/dbstore/sqlite/CMakeLists.txt",
+			"src/spawn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 227,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 301,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 245,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 230,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 404,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 327,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 62,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 19,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 562,
+				"parent" : 12
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 10,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 678,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 920,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 250,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 287,
+				"parent" : 5
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 157,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 294,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 300,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 187,
+				"parent" : 16
+			},
+			{
+				"file" : 10,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 36,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 311,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 151,
+				"parent" : 23
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 446,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 80,
+				"parent" : 32
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 448,
+				"parent" : 12
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 16,
+				"parent" : 35
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 15,
+				"parent" : 37
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 17
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 17
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 17
+			},
+			{
+				"command" : 9,
+				"file" : 11,
+				"line" : 79,
+				"parent" : 32
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 152,
+				"parent" : 19
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 90,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 96,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 103,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 104,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 107,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 111,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 115,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 140,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 141,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 179,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 194,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 203,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 253,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 74,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 83,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 87,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 588,
+				"parent" : 16
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 95,
+				"parent" : 16
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 681,
+				"parent" : 16
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 698,
+				"parent" : 16
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 323,
+				"parent" : 12
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 347,
+				"parent" : 12
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -fPIE -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 45,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 45,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 45,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 45,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 45,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 45,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 46,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 48,
+					"fragment" : "-ftemplate-depth-1024"
+				},
+				{
+					"backtrace" : 49,
+					"fragment" : "-Wpessimizing-move"
+				},
+				{
+					"backtrace" : 50,
+					"fragment" : "-Wredundant-move"
+				},
+				{
+					"backtrace" : 51,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 52,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 53,
+					"fragment" : "-DCEPH_DEBUG_MUTEX"
+				},
+				{
+					"backtrace" : 54,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 55,
+					"fragment" : "-D_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 56,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 57,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "CLS_CLIENT_HIDE_IOCTX"
+				},
+				{
+					"backtrace" : 57,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 57,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 59,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 57,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 57,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 57,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 57,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 60,
+					"define" : "__linux__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 61,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/edgar/code/clionProject/ceph/src/dmclock/support/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw/driver/rados"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw/services"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/include/lua5.3"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/edgar/code/clionProject/ceph/src/spawn/include"
+				},
+				{
+					"backtrace" : 62,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 64,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 65,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/cpp_redis/includes"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/cpp_redis/tacopie/includes"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/s3select/rapidjson/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/api/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/exporters/jaeger/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/ext/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/sdk/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/googletest/googlemock/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/googletest/googlemock"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/googletest/googletest/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/googletest/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4,
+					4
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 41,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "opentelemetry-cpp::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ceph-common::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "arrow_ext::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cpp_redis::@72f6d88c100f2bdc430d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tacopie::@48d06b978f3ba48d9c50"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "json_spirit::@f1198e6cb77a3c4d25a1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "fmt::@1854e85baaeea9f7b2b9"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "crc32::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "common_utf8::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "arch::@d342cb40cd6973ea4176"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "extblkdev::@1a021b9442bb864ca036"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "global::@ed15893da2232e6a601b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_lock_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_otp_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_refcount_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_version_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_log_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_timeindex_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_user_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_rgw_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_rgw_gc_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_2pc_queue_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cls_cmpomap_client::@36307d147426c609c77a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "librados::@e4364b25a2ab2d12f897"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "erasure_code::@6bce9d9d0d8f53b2d0b1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gmock::@3c4cba064c8ecbe9dbc0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gmock_main::@3c4cba064c8ecbe9dbc0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gtest::@b068ebab491bd2074656"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "dmclock::@e01a478aea47bb95f372"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "amqp_mock::@a1c480ec0a416de91f12"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kafka_stub::@a1c480ec0a416de91f12"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rgw_common::@3a502e2f23e6e30bc743"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rgw_a::@3a502e2f23e6e30bc743"
+		}
+	],
+	"id" : "ceph_test_cls_rgw_meta::@b7fcbc08bf8df37e9c1b",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Og -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic -pie",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/edgar/code/clionProject/ceph/cmake-build-debug/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/librgw_a.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libamqp_mock.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libkafka_stub.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libglobal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_version_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_log_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_refcount_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_rgw_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_user_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_lock_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libblkid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcurl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libexpat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libgmock_maind.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libgmockd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libgtestd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib/librgw_common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib/libdbstore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "lib/libdbstore_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "lib/libsqlite_db.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib/librgw_common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib/libdbstore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "lib/libdbstore_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "lib/libsqlite_db.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/librados.so.2.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libglobal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib/libceph-common.so.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libblkid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "lib/libjson_spirit.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib/libcommon_utf8.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "lib/liberasure_code.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "lib/libextblkdev.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "-lcap",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "lib/libcrc32.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "lib/libarch.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "boost/lib/libboost_random.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "boost/lib/libboost_program_options.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "boost/lib/libboost_iostreams.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "boost/lib/libboost_regex.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libudev.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libibverbs.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librdmacm.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "-lresolv",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_version_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_log_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_refcount_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_rgw_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_user_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib/libcls_lock_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "src/arrow/lib/libparquet.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "src/arrow/lib/libarrow.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-lthrift",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/liblz4.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libsnappy.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib/liboath.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "lib/libcls_2pc_queue_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "lib/libcls_cmpomap_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "lib/libcls_otp_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "lib/libcls_rgw_gc_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "lib/libcls_timeindex_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libexpat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libicuuc.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "lib/libdmclock.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/liblua5.3.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "lib/libfmtd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "lib/libcpp_redis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "lib/libtacopie.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librdkafka.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librabbitmq.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libssl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libldap.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/liblber.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "boost/lib/libboost_filesystem.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcurl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "src/opentelemetry-cpp/sdk/src/trace/libopentelemetry_trace.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "src/opentelemetry-cpp/sdk/src/resource/libopentelemetry_resources.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "src/opentelemetry-cpp/sdk/src/common/libopentelemetry_common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "src/opentelemetry-cpp/exporters/jaeger/libopentelemetry_exporter_jaeger_trace.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "src/opentelemetry-cpp/ext/src/http/client/curl/libopentelemetry_http_client_curl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libthrift.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "-lsqlite3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "boost/lib/libboost_context.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "boost/lib/libboost_thread.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "boost/lib/libboost_system.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "boost/lib/libboost_atomic.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "boost/lib/libboost_date_time.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "boost/lib/libboost_chrono.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--as-needed -latomic",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ceph_test_cls_rgw_meta",
+	"nameOnDisk" : "ceph_test_cls_rgw_meta",
+	"paths" : 
+	{
+		"build" : "src/test",
+		"source" : "src/test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/test/test_rgw_admin_meta.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

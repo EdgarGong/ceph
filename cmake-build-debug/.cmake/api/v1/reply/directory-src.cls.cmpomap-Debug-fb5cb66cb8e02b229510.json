@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/cls/cmpomap/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/rados-classes",
+			"paths" : 
+			[
+				"lib/libcls_cmpomap.so.1.0.0",
+				"lib/libcls_cmpomap.so.1"
+			],
+			"targetId" : "cls_cmpomap::@36307d147426c609c77a",
+			"targetIndex" : 195,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/rados-classes",
+			"paths" : 
+			[
+				"lib/libcls_cmpomap.so"
+			],
+			"targetId" : "cls_cmpomap::@36307d147426c609c77a",
+			"targetIndex" : 195,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/cls/cmpomap",
+		"source" : "src/cls/cmpomap"
+	}
+}

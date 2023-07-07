@@ -1,0 +1,408 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/CMakeFiles/rados_snap_set_diff_obj.dir/./librados/snap_set_diff.cc.o"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"add_dependencies",
+			"build_boost",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 625,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 678,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 194,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 203,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 588,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 681,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 698,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 323,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 347,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-ftemplate-depth-1024"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wpessimizing-move"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wredundant-move"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-DCEPH_DEBUG_MUTEX"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-D_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 19,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__linux__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 23,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 25,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "rados_snap_set_diff_obj::@145eef247bfb46b6828c",
+	"name" : "rados_snap_set_diff_obj",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/librados/snap_set_diff.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

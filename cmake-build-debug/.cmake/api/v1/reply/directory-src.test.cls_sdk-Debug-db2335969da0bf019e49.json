@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/cls_sdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_cls_sdk"
+			],
+			"targetId" : "ceph_test_cls_sdk::@a6196546f204a27dcb63",
+			"targetIndex" : 80,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/cls_sdk",
+		"source" : "src/test/cls_sdk"
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/extblkdev/vdo/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/extblkdev",
+			"paths" : 
+			[
+				"lib/libceph_ebd_vdo.so"
+			],
+			"targetId" : "ceph_ebd_vdo::@1e5258deb14c6612006e",
+			"targetIndex" : 36,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/extblkdev/vdo",
+		"source" : "src/extblkdev/vdo"
+	}
+}

@@ -1,0 +1,166 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_denc_mod"
+		],
+		"files" : 
+		[
+			"src/tools/ceph-dencoder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/ceph/denc",
+			"paths" : 
+			[
+				"lib/denc-mod-common.so"
+			],
+			"targetId" : "denc-mod-common::@41722d1353d049b5f4ac",
+			"targetIndex" : 261,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/ceph/denc",
+			"paths" : 
+			[
+				"lib/denc-mod-osd.so"
+			],
+			"targetId" : "denc-mod-osd::@41722d1353d049b5f4ac",
+			"targetIndex" : 262,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/ceph/denc",
+			"paths" : 
+			[
+				"lib/denc-mod-rgw.so"
+			],
+			"targetId" : "denc-mod-rgw::@41722d1353d049b5f4ac",
+			"targetIndex" : 264,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/ceph/denc",
+			"paths" : 
+			[
+				"lib/denc-mod-rbd.so"
+			],
+			"targetId" : "denc-mod-rbd::@41722d1353d049b5f4ac",
+			"targetIndex" : 263,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/ceph/denc",
+			"paths" : 
+			[
+				"lib/denc-mod-cephfs.so"
+			],
+			"targetId" : "denc-mod-cephfs::@41722d1353d049b5f4ac",
+			"targetIndex" : 260,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph-dencoder"
+			],
+			"targetId" : "ceph-dencoder::@41722d1353d049b5f4ac",
+			"targetIndex" : 16,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/tools/ceph-dencoder",
+		"source" : "src/tools/ceph-dencoder"
+	}
+}

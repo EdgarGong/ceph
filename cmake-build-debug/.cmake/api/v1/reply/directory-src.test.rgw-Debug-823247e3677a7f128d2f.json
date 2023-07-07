@@ -1,0 +1,99 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/rgw/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 281,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rgw_d4n_directory"
+			],
+			"targetId" : "ceph_test_rgw_d4n_directory::@a1c480ec0a416de91f12",
+			"targetIndex" : 161,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rgw_d4n_filter"
+			],
+			"targetId" : "ceph_test_rgw_d4n_filter::@a1c480ec0a416de91f12",
+			"targetIndex" : 162,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rgw_obj"
+			],
+			"targetId" : "ceph_test_rgw_obj::@a1c480ec0a416de91f12",
+			"targetIndex" : 165,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_rgw_gc_log"
+			],
+			"targetId" : "ceph_test_rgw_gc_log::@a1c480ec0a416de91f12",
+			"targetIndex" : 163,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/rgw",
+		"source" : "src/test/rgw"
+	}
+}

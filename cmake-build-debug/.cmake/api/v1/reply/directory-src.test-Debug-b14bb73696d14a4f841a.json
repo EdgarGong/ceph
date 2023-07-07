@@ -1,0 +1,279 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 245,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 322,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 342,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 356,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 376,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 431,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 454,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 484,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 500,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 545,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_cls_rgw_meta"
+			],
+			"targetId" : "ceph_test_cls_rgw_meta::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 78,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_librgw_file"
+			],
+			"targetId" : "ceph_test_librgw_file::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 99,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_librgw_file_cd"
+			],
+			"targetId" : "ceph_test_librgw_file_cd::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 101,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_librgw_file_gp"
+			],
+			"targetId" : "ceph_test_librgw_file_gp::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 102,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_librgw_file_nfsns"
+			],
+			"targetId" : "ceph_test_librgw_file_nfsns::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 104,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_librgw_file_aw"
+			],
+			"targetId" : "ceph_test_librgw_file_aw::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 100,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_librgw_file_marker"
+			],
+			"targetId" : "ceph_test_librgw_file_marker::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 103,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_bench_log"
+			],
+			"targetId" : "ceph_bench_log::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 34,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_multi_stress_watch"
+			],
+			"targetId" : "ceph_multi_stress_watch::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 42,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_omapbench"
+			],
+			"targetId" : "ceph_omapbench::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 44,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_objectstore_bench"
+			],
+			"targetId" : "ceph_objectstore_bench::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 43,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_perf_local"
+			],
+			"targetId" : "ceph_perf_local::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 45,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_stress_watch"
+			],
+			"targetId" : "ceph_test_stress_watch::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 169,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_c2c"
+			],
+			"targetId" : "ceph_test_c2c::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 60,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_admin_socket_output"
+			],
+			"targetId" : "ceph_test_admin_socket_output::@b7fcbc08bf8df37e9c1b",
+			"targetIndex" : 56,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test",
+		"source" : "src/test"
+	}
+}

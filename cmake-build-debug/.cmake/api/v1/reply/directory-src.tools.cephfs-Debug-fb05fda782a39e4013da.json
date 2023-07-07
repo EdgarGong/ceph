@@ -1,0 +1,69 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/tools/cephfs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/cephfs-journal-tool"
+			],
+			"targetId" : "cephfs-journal-tool::@54efe7fab4bf076da011",
+			"targetIndex" : 178,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/cephfs-table-tool"
+			],
+			"targetId" : "cephfs-table-tool::@54efe7fab4bf076da011",
+			"targetIndex" : 181,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/cephfs-data-scan"
+			],
+			"targetId" : "cephfs-data-scan::@54efe7fab4bf076da011",
+			"targetIndex" : 177,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/tools/cephfs",
+		"source" : "src/tools/cephfs"
+	}
+}

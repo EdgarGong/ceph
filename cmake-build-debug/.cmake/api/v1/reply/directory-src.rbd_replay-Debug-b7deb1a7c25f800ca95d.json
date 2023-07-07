@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/rbd_replay/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/rbd-replay"
+			],
+			"targetId" : "rbd-replay::@dfb413366ace7006f608",
+			"targetIndex" : 365,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/rbd-replay-prep"
+			],
+			"targetId" : "rbd-replay-prep::@dfb413366ace7006f608",
+			"targetIndex" : 366,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/rbd_replay",
+		"source" : "src/rbd_replay"
+	}
+}

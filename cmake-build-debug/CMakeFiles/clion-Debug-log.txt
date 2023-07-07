@@ -1,0 +1,76 @@
+/snap/clion/241/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/241/bin/ninja/linux/x64/ninja -DCMAKE_C_COMPILER=/usr/bin/gcc-11 -DCMAKE_CXX_COMPILER=/usr/bin/g++-11 -G Ninja -S /home/edgar/code/clionProject/ceph -B /home/edgar/code/clionProject/ceph/cmake-build-debug
+-- Could NOT find gperftools (missing: GPERFTOOLS_INCLUDE_DIR) (Required is at least version "2.6.2")
+-- Could NOT find JeMalloc (missing: JEMALLOC_LIBRARIES JEMALLOC_INCLUDE_DIR) 
+CMake Warning at CMakeLists.txt:390 (message):
+  tcmalloc and jemalloc not found, falling back to libc
+
+
+-- allocator selected: libc
+-- ssl soname: libssl.so.1.1
+-- crypto soname: libcrypto.so.1.1
+-- Found Python3: /usr/bin/python3.8 (found suitable exact version "3.8.10") found components: Interpreter Development 
+-- BUILDING Boost Libraries at j 4
+-- boost will be downloaded...
+-- Could NOT find nasm
+CMake Deprecation Warning at src/cpp_redis/CMakeLists.txt:26 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at src/cpp_redis/CMakeLists.txt:41 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at src/cpp_redis/tacopie/CMakeLists.txt:26 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at src/cpp_redis/tacopie/CMakeLists.txt:41 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could not find fmt, will build it
+-- Module support is disabled.
+-- Version: 9.1.0
+-- Build type: Debug
+-- CXX_STANDARD: 20
+-- Required features: cxx_variadic_templates
+-- Found thrift: /usr/lib/x86_64-linux-gnu/libthrift.so (Required is at least version "0.13.0") 
+bash: jq：未找到命令
+-- Found Python3: /usr/bin/python3.8 (found suitable version "3.8.10", minimum required is "3.6.0") found components: Interpreter 
+-- Found thrift: /usr/lib/x86_64-linux-gnu/libthrift.so (Required is at least version "0.13") 
+-- arrow is installed, radosgw/s3select-op is able to process parquet objects
+-- Found the following ICU libraries:
+--   uc (required): /usr/lib/x86_64-linux-gnu/libicuuc.so
+-- Checking for one of the modules 'rdkafka'
+-- Found RDKafka: /usr/include (found suitable version "1.2.1", minimum required is "0.9.2") 
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- exclude following files under src: *.js;*.css;.tox;python-common/build;erasure-code/jerasure/jerasure;erasure-code/jerasure/gf-complete;rocksdb;googletest;spdk;xxHash;isa-l;zstd;crypto/isa-l/isa-l_crypto;blkin;dmclock;seastar;fmt;c-ares;spawn;pybind/mgr/rook/rook-client-python;s3select;cpp_redis;libkmip;arrow;utf8proc;jaegertracing/opentelemetry-cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/edgar/code/clionProject/ceph/cmake-build-debug

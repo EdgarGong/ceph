@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/client/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_client"
+			],
+			"targetId" : "ceph_test_client::@7c64077d0b4ada918467",
+			"targetIndex" : 62,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/client",
+		"source" : "src/test/client"
+	}
+}

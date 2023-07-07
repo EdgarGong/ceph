@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/erasure-code/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_erasure_code_benchmark"
+			],
+			"targetId" : "ceph_erasure_code_benchmark::@1d2ffab8e15718656ce8",
+			"targetIndex" : 37,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/erasure-code",
+		"source" : "src/test/erasure-code"
+	}
+}

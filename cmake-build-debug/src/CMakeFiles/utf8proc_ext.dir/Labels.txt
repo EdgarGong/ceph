@@ -1,0 +1,13 @@
+# Target labels
+ utf8proc_ext
+# Source files and their labels
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/utf8proc_ext
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/utf8proc_ext.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/utf8proc_ext-complete.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/utf8proc_ext-prefix/src/utf8proc_ext-stamp/utf8proc_ext-build.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/utf8proc_ext-prefix/src/utf8proc_ext-stamp/utf8proc_ext-configure.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/utf8proc_ext-prefix/src/utf8proc_ext-stamp/utf8proc_ext-download.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/utf8proc_ext-prefix/src/utf8proc_ext-stamp/utf8proc_ext-install.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/utf8proc_ext-prefix/src/utf8proc_ext-stamp/utf8proc_ext-mkdir.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/utf8proc_ext-prefix/src/utf8proc_ext-stamp/utf8proc_ext-patch.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/utf8proc_ext-prefix/src/utf8proc_ext-stamp/utf8proc_ext-update.rule

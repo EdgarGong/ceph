@@ -1,0 +1,481 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf_cpu.c.o"
+		},
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf_wgen.c.o"
+		},
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf_w16.c.o"
+		},
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf.c.o"
+		},
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf_w32.c.o"
+		},
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf_w64.c.o"
+		},
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf_w128.c.o"
+		},
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf_general.c.o"
+		},
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf_w4.c.o"
+		},
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf_rand.c.o"
+		},
+		{
+			"path" : "src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/./gf-complete/src/gf_w8.c.o"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"add_compile_options",
+			"add_definitions",
+			"set_target_properties",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/erasure-code/jerasure/CMakeLists.txt",
+			"src/CMakeLists.txt",
+			"CMakeLists.txt",
+			"src/erasure-code/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 90,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 96,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 194,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 253,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 74,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 83,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 3
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 588,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 95,
+				"parent" : 12
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 8,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 681,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 698,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 323,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 347,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 6,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 7,
+				"parent" : 15
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : " -msse -msse2 -msse3 -mssse3 -mpclmul -msse4.1 -msse4.2"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "INTEL_SSE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "INTEL_SSE2"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "INTEL_SSE3"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "INTEL_SSE4"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "INTEL_SSE4_PCLMUL"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "INTEL_SSSE3"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__linux__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/edgar/code/clionProject/ceph/src/erasure-code/jerasure"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 19,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				},
+				{
+					"backtrace" : 21,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/erasure-code/jerasure/jerasure/include"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/erasure-code/jerasure/gf-complete/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"id" : "gf-complete_objs::@a69a7308384ee90b875f",
+	"name" : "gf-complete_objs",
+	"paths" : 
+	{
+		"build" : "src/erasure-code/jerasure",
+		"source" : "src/erasure-code/jerasure"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf_cpu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf_wgen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf_w16.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf_w32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf_w64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf_w128.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf_general.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf_w4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf_rand.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/erasure-code/jerasure/gf-complete/src/gf_w8.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

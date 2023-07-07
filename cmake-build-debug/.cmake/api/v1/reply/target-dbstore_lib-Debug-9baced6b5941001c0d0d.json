@@ -1,0 +1,744 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libdbstore_lib.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"add_dependencies",
+			"build_boost",
+			"build_opentelemetry",
+			"target_link_libraries",
+			"build_arrow",
+			"add_compile_options",
+			"add_definitions",
+			"add_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/rgw/driver/dbstore/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/BuildOpentelemetry.cmake",
+			"src/CMakeLists.txt",
+			"src/rgw/driver/dbstore/sqlite/CMakeLists.txt",
+			"cmake/modules/BuildArrow.cmake",
+			"src/rgw/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 678,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 446,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 79,
+				"parent" : 7
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 16,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 920,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 152,
+				"parent" : 11
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 318,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 90,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 96,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 104,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 107,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 111,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 115,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 140,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 141,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 179,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 194,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 203,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 253,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 74,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 83,
+				"parent" : 6
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 12,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 87,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 588,
+				"parent" : 3
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 3
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 681,
+				"parent" : 3
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 698,
+				"parent" : 3
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 323,
+				"parent" : 6
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 347,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-ftemplate-depth-1024"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wpessimizing-move"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wredundant-move"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-DCEPH_DEBUG_MUTEX"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-D_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 28,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "SQLITE_ENABLED=1"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "_ARROW_EXIST"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 33,
+					"define" : "__linux__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 34,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw/store/rados"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw/driver/dbstore"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw/driver/dbstore/common"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw/driver/dbstore/sqlite"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/home/edgar/code/clionProject/ceph/src/spawn/include"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw/services"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rgw/driver/rados"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/usr/include/lua5.3"
+				},
+				{
+					"backtrace" : 38,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 39,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 40,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				},
+				{
+					"backtrace" : 37,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/api/include"
+				},
+				{
+					"backtrace" : 37,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/exporters/jaeger/include"
+				},
+				{
+					"backtrace" : 37,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/ext/include"
+				},
+				{
+					"backtrace" : 37,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/sdk/include"
+				},
+				{
+					"backtrace" : 37,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/cpp_redis/includes"
+				},
+				{
+					"backtrace" : 37,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/cpp_redis/tacopie/includes"
+				},
+				{
+					"backtrace" : 37,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/s3select/rapidjson/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					37
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "opentelemetry-cpp::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "ceph-common::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "arrow_ext::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cpp_redis::@72f6d88c100f2bdc430d"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "tacopie::@48d06b978f3ba48d9c50"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "json_spirit::@f1198e6cb77a3c4d25a1"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "fmt::@1854e85baaeea9f7b2b9"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "crc32::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "common_utf8::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "arch::@d342cb40cd6973ea4176"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "extblkdev::@1a021b9442bb864ca036"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "rgw_op-tp::@71d80b6d6e3213ade5c8"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "rgw_rados-tp::@71d80b6d6e3213ade5c8"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "global::@ed15893da2232e6a601b"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_lock_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_otp_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_refcount_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_version_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_log_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_timeindex_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_user_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_rgw_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_rgw_gc_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_2pc_queue_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cls_cmpomap_client::@36307d147426c609c77a"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "librados::@e4364b25a2ab2d12f897"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "erasure_code::@6bce9d9d0d8f53b2d0b1"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "dmclock::@e01a478aea47bb95f372"
+		}
+	],
+	"id" : "dbstore_lib::@228e56bcccf79dce7480",
+	"name" : "dbstore_lib",
+	"nameOnDisk" : "libdbstore_lib.a",
+	"paths" : 
+	{
+		"build" : "src/rgw/driver/dbstore",
+		"source" : "src/rgw/driver/dbstore"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "src/rgw/driver/dbstore/common/dbstore_log.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/rgw/driver/dbstore/common/dbstore.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/rgw/driver/dbstore/common/dbstore.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/rgw/driver/dbstore/config/store.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/rgw/driver/dbstore/config/sqlite.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/rgw/driver/dbstore/sqlite/connection.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/rgw/driver/dbstore/sqlite/error.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/rgw/driver/dbstore/sqlite/statement.cc",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

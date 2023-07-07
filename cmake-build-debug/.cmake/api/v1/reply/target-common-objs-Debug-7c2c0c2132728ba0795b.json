@@ -1,0 +1,1031 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./ceph_ver.c.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./global/global_context.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./xxHash/xxhash.c.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./common/error_code.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./common/tracer.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./log/Log.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mon/MonCap.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mon/MonClient.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mon/MonMap.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mon/MonSub.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mon/error_code.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mgr/MgrClient.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mon/PGMap.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mgr/ServiceMap.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osd/ECMsgTypes.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osd/HitSet.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osd/OSDMap.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osd/OSDMapMapping.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osd/osd_types.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osd/error_code.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osd/PGPeeringEvent.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osd/OpRequest.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osd/ClassHandler.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osd/osd_op_util.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osdc/Striper.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osdc/Objecter.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./osdc/error_code.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./librbd/Features.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./librbd/io/IoOperations.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mds/MDSMap.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mds/FSMap.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mds/FSMapUser.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mds/inode_backtrace.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mds/mdstypes.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mds/flock.cc.o"
+		},
+		{
+			"path" : "src/CMakeFiles/common-objs.dir/./mds/cephfs_features.cc.o"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"add_dependencies",
+			"build_boost",
+			"build_opentelemetry",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/modules/BuildOpentelemetry.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 438,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 678,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 446,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 79,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 441,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 606,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 194,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 588,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 681,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 698,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 323,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 347,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 451,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 203,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 14,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "__linux__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 19,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 21,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/api/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/exporters/jaeger/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/ext/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/sdk/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				3
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-ftemplate-depth-1024"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wpessimizing-move"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-Wredundant-move"
+				},
+				{
+					"backtrace" : 29,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 31,
+					"fragment" : "-DCEPH_DEBUG_MUTEX"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-D_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 14,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "__linux__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 19,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 21,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/api/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/exporters/jaeger/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/ext/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/sdk/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opentelemetry-cpp::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "legacy-option-headers::@620d65bafa4beabfca7b"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "oprequest-tp::@71d80b6d6e3213ade5c8"
+		}
+	],
+	"id" : "common-objs::@145eef247bfb46b6828c",
+	"name" : "common-objs",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/src/include/ceph_ver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/ceph_ver.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/global/global_context.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/xxHash/xxhash.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/error_code.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/tracer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/log/Log.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mon/MonCap.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mon/MonClient.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mon/MonMap.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mon/MonSub.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mon/error_code.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mgr/MgrClient.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mon/PGMap.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mgr/ServiceMap.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osd/ECMsgTypes.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osd/HitSet.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osd/OSDMap.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osd/OSDMapMapping.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osd/osd_types.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osd/error_code.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osd/PGPeeringEvent.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osd/OpRequest.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osd/ClassHandler.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osd/osd_op_util.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osdc/Striper.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osdc/Objecter.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/osdc/error_code.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/librbd/Features.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/librbd/io/IoOperations.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mds/MDSMap.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mds/FSMap.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mds/FSMapUser.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mds/inode_backtrace.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mds/mdstypes.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mds/flock.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/mds/cephfs_features.cc",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

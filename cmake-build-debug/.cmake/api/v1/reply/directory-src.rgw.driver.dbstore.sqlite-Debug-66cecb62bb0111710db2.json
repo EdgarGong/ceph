@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "src/rgw/driver/dbstore/sqlite",
+		"source" : "src/rgw/driver/dbstore/sqlite"
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/rbd_fuse/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/rbd-fuse"
+			],
+			"targetId" : "rbd-fuse::@fb3bd27f7094c72cd3c0",
+			"targetIndex" : 362,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/rbd_fuse",
+		"source" : "src/rbd_fuse"
+	}
+}

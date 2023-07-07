@@ -1,0 +1,92 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/pybind/mgr/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/share/ceph/mgr",
+			"paths" : 
+			[
+				"src/pybind/mgr/alerts",
+				"src/pybind/mgr/balancer",
+				"src/pybind/mgr/cephadm",
+				"src/pybind/mgr/crash",
+				"src/pybind/mgr/devicehealth",
+				"src/pybind/mgr/diskprediction_local",
+				"src/pybind/mgr/influx",
+				"src/pybind/mgr/insights",
+				"src/pybind/mgr/iostat",
+				"src/pybind/mgr/k8sevents",
+				"src/pybind/mgr/localpool",
+				"src/pybind/mgr/mds_autoscaler",
+				"src/pybind/mgr/mirroring",
+				"src/pybind/mgr/nfs",
+				"src/pybind/mgr/orchestrator",
+				"src/pybind/mgr/osd_perf_query",
+				"src/pybind/mgr/osd_support",
+				"src/pybind/mgr/pg_autoscaler",
+				"src/pybind/mgr/progress",
+				"src/pybind/mgr/prometheus",
+				"src/pybind/mgr/rbd_support",
+				"src/pybind/mgr/restful",
+				"src/pybind/mgr/rgw",
+				"src/pybind/mgr/selftest",
+				"src/pybind/mgr/snap_schedule",
+				"src/pybind/mgr/stats",
+				"src/pybind/mgr/status",
+				"src/pybind/mgr/telegraf",
+				"src/pybind/mgr/telemetry",
+				"src/pybind/mgr/test_orchestrator",
+				"src/pybind/mgr/volumes",
+				"src/pybind/mgr/zabbix"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/share/ceph/mgr",
+			"paths" : 
+			[
+				"src/pybind/mgr/mgr_module.py",
+				"src/pybind/mgr/mgr_util.py",
+				"src/pybind/mgr/object_format.py"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/pybind/mgr",
+		"source" : "src/pybind/mgr"
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/tools/rbd_mirror/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/rbd-mirror"
+			],
+			"targetId" : "rbd-mirror::@748b32281d75a214647d",
+			"targetIndex" : 363,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/tools/rbd_mirror",
+		"source" : "src/tools/rbd_mirror"
+	}
+}

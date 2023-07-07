@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/erasure-code/lrc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/erasure-code",
+			"paths" : 
+			[
+				"lib/libec_lrc.so"
+			],
+			"targetId" : "ec_lrc::@c5df5a7114d2033e5881",
+			"targetIndex" : 275,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/erasure-code/lrc",
+		"source" : "src/erasure-code/lrc"
+	}
+}

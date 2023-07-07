@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/erasure-code/clay/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/erasure-code",
+			"paths" : 
+			[
+				"lib/libec_clay.so"
+			],
+			"targetId" : "ec_clay::@37733e96e2d56d7d9514",
+			"targetIndex" : 266,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/erasure-code/clay",
+		"source" : "src/erasure-code/clay"
+	}
+}

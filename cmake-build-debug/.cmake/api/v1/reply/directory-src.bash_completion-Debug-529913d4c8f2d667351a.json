@@ -1,0 +1,46 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/bash_completion/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "etc/bash_completion.d",
+			"paths" : 
+			[
+				"src/bash_completion/ceph",
+				"src/bash_completion/rados",
+				"src/bash_completion/rbd",
+				"src/bash_completion/radosgw-admin"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/bash_completion",
+		"source" : "src/bash_completion"
+	}
+}

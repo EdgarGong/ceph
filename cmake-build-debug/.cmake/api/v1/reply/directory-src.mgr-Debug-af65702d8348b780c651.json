@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/mgr/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph-mgr"
+			],
+			"targetId" : "ceph-mgr::@0c610c2bcfd70a345eb3",
+			"targetIndex" : 25,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/mgr",
+		"source" : "src/mgr"
+	}
+}

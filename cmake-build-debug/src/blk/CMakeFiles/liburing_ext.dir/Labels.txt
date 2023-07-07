@@ -1,0 +1,13 @@
+# Target labels
+ liburing_ext
+# Source files and their labels
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/blk/CMakeFiles/liburing_ext
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/blk/CMakeFiles/liburing_ext.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/blk/CMakeFiles/liburing_ext-complete.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-build.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-configure.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-download.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-install.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-mkdir.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-patch.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-update.rule

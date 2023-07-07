@@ -1,0 +1,217 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/rgw/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 458,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 486,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 497,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 504,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 515,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 521,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 568,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 583,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 589,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/radosgw"
+			],
+			"targetId" : "radosgw::@3a502e2f23e6e30bc743",
+			"targetIndex" : 351,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/radosgw-admin"
+			],
+			"targetId" : "radosgw-admin::@3a502e2f23e6e30bc743",
+			"targetIndex" : 352,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/radosgw-es"
+			],
+			"targetId" : "radosgw-es::@3a502e2f23e6e30bc743",
+			"targetIndex" : 354,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/radosgw-token"
+			],
+			"targetId" : "radosgw-token::@3a502e2f23e6e30bc743",
+			"targetIndex" : 356,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/radosgw-object-expirer"
+			],
+			"targetId" : "radosgw-object-expirer::@3a502e2f23e6e30bc743",
+			"targetIndex" : 355,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/rgw-policy-check"
+			],
+			"targetId" : "rgw-policy-check::@3a502e2f23e6e30bc743",
+			"targetIndex" : 381,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librgw.so.2.0.0",
+				"lib/librgw.so.2"
+			],
+			"targetId" : "rgw::@3a502e2f23e6e30bc743",
+			"targetIndex" : 380,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librgw.so"
+			],
+			"targetId" : "rgw::@3a502e2f23e6e30bc743",
+			"targetIndex" : 380,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_rgw_jsonparser"
+			],
+			"targetId" : "ceph_rgw_jsonparser::@3a502e2f23e6e30bc743",
+			"targetIndex" : 51,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_rgw_multiparser"
+			],
+			"targetId" : "ceph_rgw_multiparser::@3a502e2f23e6e30bc743",
+			"targetIndex" : 52,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/rgw/rgw-gap-list",
+				"src/rgw/rgw-gap-list-comparator",
+				"src/rgw/rgw-orphan-list",
+				"src/rgw/rgw-restore-bucket-index"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/rgw",
+		"source" : "src/rgw"
+	}
+}

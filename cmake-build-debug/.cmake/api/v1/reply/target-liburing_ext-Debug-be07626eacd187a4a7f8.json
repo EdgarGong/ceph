@@ -1,0 +1,142 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ExternalProject_Add",
+			"build_uring"
+		],
+		"files" : 
+		[
+			"/snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/ExternalProject.cmake",
+			"cmake/modules/Builduring.cmake",
+			"src/blk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3985,
+				"parent" : 2
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "ExternalProjectTargets/liburing_ext"
+	},
+	"id" : "liburing_ext::@349d623432270862727e",
+	"name" : "liburing_ext",
+	"paths" : 
+	{
+		"build" : "src/blk",
+		"source" : "src/blk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/blk/CMakeFiles/liburing_ext",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/blk/CMakeFiles/liburing_ext.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/blk/CMakeFiles/liburing_ext-complete.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-build.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-configure.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-download.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-install.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-mkdir.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-patch.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/blk/liburing_ext-prefix/src/liburing_ext-stamp/liburing_ext-update.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

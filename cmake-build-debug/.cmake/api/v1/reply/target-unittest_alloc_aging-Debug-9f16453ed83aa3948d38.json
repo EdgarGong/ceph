@@ -1,0 +1,968 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/unittest_alloc_aging"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"build_rocksdb",
+			"build_opentelemetry",
+			"build_boost",
+			"add_dependencies",
+			"build_uring",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/test/objectstore/CMakeLists.txt",
+			"src/os/CMakeLists.txt",
+			"src/blk/CMakeLists.txt",
+			"src/kv/CMakeLists.txt",
+			"cmake/modules/BuildRocksDB.cmake",
+			"src/CMakeLists.txt",
+			"src/global/CMakeLists.txt",
+			"cmake/modules/BuildOpentelemetry.cmake",
+			"src/extblkdev/CMakeLists.txt",
+			"src/json_spirit/CMakeLists.txt",
+			"CMakeLists.txt",
+			"src/googletest/googletest/CMakeLists.txt",
+			"cmake/modules/Builduring.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 301,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 34,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 66,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 58,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 11,
+				"parent" : 10
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 641,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 99,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 4
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 19,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 446,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 80,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 448,
+				"parent" : 12
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 10,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 562,
+				"parent" : 12
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 10,
+				"line" : 4,
+				"parent" : 24
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 678,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 27
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 12,
+				"line" : 143,
+				"parent" : 30
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 79,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 88,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 64,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 37,
+				"parent" : 35
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 90,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 96,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 103,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 104,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 107,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 111,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 115,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 140,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 141,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 179,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 194,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 203,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 253,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 74,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 83,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 87,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 11,
+				"line" : 588,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 11,
+				"line" : 95,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 11,
+				"line" : 681,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 11,
+				"line" : 698,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 323,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 347,
+				"parent" : 12
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -fPIE -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 39,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 40,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 41,
+					"fragment" : "-ftemplate-depth-1024"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wpessimizing-move"
+				},
+				{
+					"backtrace" : 43,
+					"fragment" : "-Wredundant-move"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 45,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 46,
+					"fragment" : "-DCEPH_DEBUG_MUTEX"
+				},
+				{
+					"backtrace" : 47,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 48,
+					"fragment" : "-D_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 49,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 50,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 51,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 53,
+					"define" : "__linux__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 54,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 55,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 56,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 57,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 58,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/rocksdb/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/fuse"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/api/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/exporters/jaeger/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/ext/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/jaegertracing/opentelemetry-cpp/sdk/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/googletest/googletest/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/googletest/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3,
+					3
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 32,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "opentelemetry-cpp::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ceph-common::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "rocksdb_ext::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "json_spirit::@f1198e6cb77a3c4d25a1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "fmt::@1854e85baaeea9f7b2b9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "crc32::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "common_utf8::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "arch::@d342cb40cd6973ea4176"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "extblkdev::@1a021b9442bb864ca036"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "global::@ed15893da2232e6a601b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "heap_profiler::@acda1f0a02fa3d3698f5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kv::@0ea9a0d07bd142fa9229"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "os::@9f1f26b68274d134e526"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "blk::@349d623432270862727e"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "liburing_ext::@349d623432270862727e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "erasure_code::@6bce9d9d0d8f53b2d0b1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "gtest::@b068ebab491bd2074656"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "gtest_main::@b068ebab491bd2074656"
+		}
+	],
+	"id" : "unittest_alloc_aging::@b527e544a8d23cdd2ec4",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Og -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic -pie",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/edgar/code/clionProject/ceph/cmake-build-debug/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/libos.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/libglobal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/libgtest_maind.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libblk.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libaio.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "src/liburing/src/liburing.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "lib/libkv.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "lib/libheap_profiler.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "src/rocksdb/librocksdb.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libsnappy.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/liblz4.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libfuse.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "lib/libceph-common.so.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "src/opentelemetry-cpp/sdk/src/trace/libopentelemetry_trace.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "src/opentelemetry-cpp/sdk/src/resource/libopentelemetry_resources.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "src/opentelemetry-cpp/sdk/src/common/libopentelemetry_common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "src/opentelemetry-cpp/exporters/jaeger/libopentelemetry_exporter_jaeger_trace.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "src/opentelemetry-cpp/ext/src/http/client/curl/libopentelemetry_http_client_curl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcurl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libthrift.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib/libextblkdev.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "-lcap",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "lib/libjson_spirit.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "lib/libcommon_utf8.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "lib/liberasure_code.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "lib/libcrc32.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "lib/libarch.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "boost/lib/libboost_thread.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "boost/lib/libboost_chrono.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "boost/lib/libboost_atomic.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "boost/lib/libboost_system.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "boost/lib/libboost_random.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "boost/lib/libboost_program_options.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "boost/lib/libboost_date_time.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "boost/lib/libboost_iostreams.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "boost/lib/libboost_regex.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "lib/libfmtd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libblkid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libudev.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libibverbs.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librdmacm.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lresolv",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "lib/libgtestd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--as-needed -latomic",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "unittest_alloc_aging",
+	"nameOnDisk" : "unittest_alloc_aging",
+	"paths" : 
+	{
+		"build" : "src/test/objectstore",
+		"source" : "src/test/objectstore"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/test/objectstore/Allocator_aging_fragmentation.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

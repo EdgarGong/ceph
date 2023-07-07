@@ -1,0 +1,53 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"src/crypto/CMakeLists.txt",
+			"src/crypto/openssl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ceph_crypto_openssl::@0ce3d23b6f8fa9d1177b"
+		}
+	],
+	"id" : "crypto_plugins::@f9c2fa495612d34facca",
+	"name" : "crypto_plugins",
+	"paths" : 
+	{
+		"build" : "src/crypto",
+		"source" : "src/crypto"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

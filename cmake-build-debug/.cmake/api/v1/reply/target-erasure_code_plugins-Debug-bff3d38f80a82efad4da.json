@@ -1,0 +1,81 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"src/erasure-code/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ec_jerasure::@a69a7308384ee90b875f"
+		},
+		{
+			"id" : "ec_lrc::@c5df5a7114d2033e5881"
+		},
+		{
+			"id" : "ec_shec::@64488a97bd40372a572c"
+		},
+		{
+			"id" : "ec_clay::@37733e96e2d56d7d9514"
+		}
+	],
+	"id" : "erasure_code_plugins::@6bce9d9d0d8f53b2d0b1",
+	"name" : "erasure_code_plugins",
+	"paths" : 
+	{
+		"build" : "src/erasure-code",
+		"source" : "src/erasure-code"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/CMakeFiles/erasure_code_plugins",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/erasure-code/CMakeFiles/erasure_code_plugins.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

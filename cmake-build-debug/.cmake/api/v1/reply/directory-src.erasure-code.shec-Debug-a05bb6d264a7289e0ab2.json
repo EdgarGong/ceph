@@ -1,0 +1,99 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/erasure-code/shec/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/erasure-code",
+			"paths" : 
+			[
+				"lib/libec_shec.so"
+			],
+			"targetId" : "ec_shec::@64488a97bd40372a572c",
+			"targetIndex" : 278,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/erasure-code",
+			"paths" : 
+			[
+				"lib/libec_shec_generic.so"
+			],
+			"targetId" : "ec_shec_generic::@64488a97bd40372a572c",
+			"targetIndex" : 279,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/erasure-code",
+			"paths" : 
+			[
+				"lib/libec_shec_sse3.so"
+			],
+			"targetId" : "ec_shec_sse3::@64488a97bd40372a572c",
+			"targetIndex" : 280,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/erasure-code",
+			"paths" : 
+			[
+				"lib/libec_shec_sse4.so"
+			],
+			"targetId" : "ec_shec_sse4::@64488a97bd40372a572c",
+			"targetIndex" : 281,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/erasure-code/shec",
+		"source" : "src/erasure-code/shec"
+	}
+}

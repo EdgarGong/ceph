@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/compressor/lz4/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/compressor",
+			"paths" : 
+			[
+				"lib/libceph_lz4.so.2.0.0",
+				"lib/libceph_lz4.so.2"
+			],
+			"targetId" : "ceph_lz4::@a95799eb341b4167a901",
+			"targetIndex" : 41,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/compressor",
+			"paths" : 
+			[
+				"lib/libceph_lz4.so"
+			],
+			"targetId" : "ceph_lz4::@a95799eb341b4167a901",
+			"targetIndex" : 41,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/compressor/lz4",
+		"source" : "src/compressor/lz4"
+	}
+}

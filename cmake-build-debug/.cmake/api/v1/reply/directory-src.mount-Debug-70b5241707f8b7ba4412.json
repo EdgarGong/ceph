@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/mount/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "sbin",
+			"paths" : 
+			[
+				"bin/mount.ceph"
+			],
+			"targetId" : "mount.ceph::@84983dcfa2d17aaf5dae",
+			"targetIndex" : 329,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/mount",
+		"source" : "src/mount"
+	}
+}

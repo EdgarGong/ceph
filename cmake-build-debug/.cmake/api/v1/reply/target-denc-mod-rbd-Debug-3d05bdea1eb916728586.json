@@ -1,0 +1,555 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/denc-mod-rbd.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"add_denc_mod",
+			"install",
+			"target_link_libraries",
+			"add_dependencies",
+			"build_boost",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/BuildBoost.cmake",
+			"src/tools/ceph-dencoder/CMakeLists.txt",
+			"src/cls/CMakeLists.txt",
+			"src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 51,
+				"parent" : 7
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 880,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 678,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 90,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 96,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 104,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 107,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 111,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 115,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 140,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 141,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 179,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 194,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 203,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 253,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 74,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 83,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 87,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 588,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 95,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 681,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 698,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 323,
+				"parent" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 347,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wnon-virtual-dtor"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-ftemplate-depth-1024"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-Wpessimizing-move"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wredundant-move"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wstrict-null-sentinel"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-DCEPH_DEBUG_MUTEX"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-D_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-fdiagnostics-color=auto"
+				},
+				{
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 27,
+					"define" : "BOOST_ASIO_DISABLE_THREAD_KEYWORD_EXTENSION"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "BOOST_ASIO_USE_TS_EXECUTOR_AS_DEFAULT"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__CEPH__"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "__linux__"
+				},
+				{
+					"define" : "denc_mod_rbd_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 31,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/src/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/edgar/code/clionProject/ceph/src"
+				},
+				{
+					"backtrace" : 32,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/boost/include"
+				},
+				{
+					"backtrace" : 33,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 34,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/xxHash"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "/home/edgar/code/clionProject/ceph/src/fmt/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 13,
+			"id" : "Boost::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "krbd::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "cls_rbd_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "cls_lock_client::@d4a621f5a2791e5688e3"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "rbd_mirror_types::@748b32281d75a214647d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "rbd_types::@14162bdfb09d323fa3d0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "rbd_replay_types::@dfb413366ace7006f608"
+		}
+	],
+	"id" : "denc-mod-rbd::@41722d1353d049b5f4ac",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "/usr/local/lib/ceph/denc"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "/usr/local/lib/ceph/denc"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,:::::::::::::::::::",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libcls_rbd_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/librbd_mirror_types.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/librbd_types.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/librbd_replay_types.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib/libkrbd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libcls_lock_client.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libkeyutils.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--as-needed -latomic",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "denc-mod-rbd",
+	"nameOnDisk" : "denc-mod-rbd.so",
+	"paths" : 
+	{
+		"build" : "src/tools/ceph-dencoder",
+		"source" : "src/tools/ceph-dencoder"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/tools/ceph-dencoder/rbd_types.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,93 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/librbd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 261,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 358,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/librbd",
+			"paths" : 
+			[
+				"lib/libceph_librbd_parent_cache.so.1.0.0",
+				"lib/libceph_librbd_parent_cache.so.1"
+			],
+			"targetId" : "librbd_plugin_parent_cache::@14162bdfb09d323fa3d0",
+			"targetIndex" : 317,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/ceph/librbd",
+			"paths" : 
+			[
+				"lib/libceph_librbd_parent_cache.so"
+			],
+			"targetId" : "librbd_plugin_parent_cache::@14162bdfb09d323fa3d0",
+			"targetIndex" : 317,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librbd.so.1.18.0",
+				"lib/librbd.so.1"
+			],
+			"targetId" : "librbd::@14162bdfb09d323fa3d0",
+			"targetIndex" : 315,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/librbd.so"
+			],
+			"targetId" : "librbd::@14162bdfb09d323fa3d0",
+			"targetIndex" : 315,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/librbd",
+		"source" : "src/librbd"
+	}
+}

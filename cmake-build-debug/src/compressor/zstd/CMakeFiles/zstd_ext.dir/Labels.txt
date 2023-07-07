@@ -1,0 +1,13 @@
+# Target labels
+ zstd_ext
+# Source files and their labels
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/compressor/zstd/CMakeFiles/zstd_ext
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/compressor/zstd/CMakeFiles/zstd_ext.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/compressor/zstd/CMakeFiles/zstd_ext-complete.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-build.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-configure.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-download.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-install.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-mkdir.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-patch.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-update.rule

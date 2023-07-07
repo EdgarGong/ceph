@@ -1,0 +1,93 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"src/pybind/mgr/dashboard/frontend/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 132,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "mgr-dashboard-frontend-deps::@3cafd5de652439e84ede"
+		}
+	],
+	"id" : "mgr-dashboard-frontend-build::@3cafd5de652439e84ede",
+	"name" : "mgr-dashboard-frontend-build",
+	"paths" : 
+	{
+		"build" : "src/pybind/mgr/dashboard/frontend",
+		"source" : "src/pybind/mgr/dashboard/frontend"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/pybind/mgr/dashboard/frontend/CMakeFiles/mgr-dashboard-frontend-build",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/pybind/mgr/dashboard/frontend/CMakeFiles/mgr-dashboard-frontend-build.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/pybind/mgr/dashboard/frontend/dist.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/pybind/mgr/dashboard/frontend/package.json.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "src/pybind/mgr/dashboard/frontend/node_modules.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

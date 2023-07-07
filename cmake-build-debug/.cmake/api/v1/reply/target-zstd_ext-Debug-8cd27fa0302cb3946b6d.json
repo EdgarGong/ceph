@@ -1,0 +1,142 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ExternalProject_Add",
+			"build_Zstd"
+		],
+		"files" : 
+		[
+			"/snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/ExternalProject.cmake",
+			"cmake/modules/BuildZstd.cmake",
+			"src/compressor/zstd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3985,
+				"parent" : 2
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "ExternalProjectTargets/zstd_ext"
+	},
+	"id" : "zstd_ext::@a7e2ec4dd31492c1682f",
+	"name" : "zstd_ext",
+	"paths" : 
+	{
+		"build" : "src/compressor/zstd",
+		"source" : "src/compressor/zstd"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/compressor/zstd/CMakeFiles/zstd_ext",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/compressor/zstd/CMakeFiles/zstd_ext.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/compressor/zstd/CMakeFiles/zstd_ext-complete.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-build.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-configure.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-download.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-install.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-mkdir.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-patch.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/src/compressor/zstd/zstd_ext-prefix/src/zstd_ext-stamp/zstd_ext-update.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

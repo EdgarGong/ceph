@@ -1,0 +1,99 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/mon/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_mon_workloadgen"
+			],
+			"targetId" : "ceph_test_mon_workloadgen::@c0af1cf93bdcb9a5c20a",
+			"targetIndex" : 110,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_mon_memory_target"
+			],
+			"targetId" : "ceph_test_mon_memory_target::@c0af1cf93bdcb9a5c20a",
+			"targetIndex" : 107,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_log_rss_usage"
+			],
+			"targetId" : "ceph_test_log_rss_usage::@c0af1cf93bdcb9a5c20a",
+			"targetIndex" : 106,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_mon_rss_usage"
+			],
+			"targetId" : "ceph_test_mon_rss_usage::@c0af1cf93bdcb9a5c20a",
+			"targetIndex" : 109,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/mon",
+		"source" : "src/test/mon"
+	}
+}

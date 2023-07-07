@@ -1,0 +1,13 @@
+# Target labels
+ opentelemetry-cpp
+# Source files and their labels
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/opentelemetry-cpp
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/opentelemetry-cpp.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/CMakeFiles/opentelemetry-cpp-complete.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/opentelemetry-cpp/src/opentelemetry-cpp-stamp/opentelemetry-cpp-build.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/opentelemetry-cpp/src/opentelemetry-cpp-stamp/opentelemetry-cpp-configure.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/opentelemetry-cpp/src/opentelemetry-cpp-stamp/opentelemetry-cpp-download.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/opentelemetry-cpp/src/opentelemetry-cpp-stamp/opentelemetry-cpp-install.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/opentelemetry-cpp/src/opentelemetry-cpp-stamp/opentelemetry-cpp-mkdir.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/opentelemetry-cpp/src/opentelemetry-cpp-stamp/opentelemetry-cpp-patch.rule
+/home/edgar/code/clionProject/ceph/cmake-build-debug/src/opentelemetry-cpp/src/opentelemetry-cpp-stamp/opentelemetry-cpp-update.rule

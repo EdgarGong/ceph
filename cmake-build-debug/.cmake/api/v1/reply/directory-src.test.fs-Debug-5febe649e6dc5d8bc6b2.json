@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/test/fs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_trim_caps"
+			],
+			"targetId" : "ceph_test_trim_caps::@6ac9f7140d31f79110bb",
+			"targetIndex" : 171,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ceph_test_ino_release_cb"
+			],
+			"targetId" : "ceph_test_ino_release_cb::@6ac9f7140d31f79110bb",
+			"targetIndex" : 84,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/test/fs",
+		"source" : "src/test/fs"
+	}
+}
