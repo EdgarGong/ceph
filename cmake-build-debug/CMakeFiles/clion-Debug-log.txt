@@ -67,8 +67,6 @@ bash: jq：未找到命令
 -- arrow is installed, radosgw/s3select-op is able to process parquet objects
 -- Found the following ICU libraries:
 --   uc (required): /usr/lib/x86_64-linux-gnu/libicuuc.so
--- Checking for one of the modules 'rdkafka'
--- Found RDKafka: /usr/include (found suitable version "1.2.1", minimum required is "0.9.2") 
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- exclude following files under src: *.js;*.css;.tox;python-common/build;erasure-code/jerasure/jerasure;erasure-code/jerasure/gf-complete;rocksdb;googletest;spdk;xxHash;isa-l;zstd;crypto/isa-l/isa-l_crypto;blkin;dmclock;seastar;fmt;c-ares;spawn;pybind/mgr/rook/rook-client-python;s3select;cpp_redis;libkmip;arrow;utf8proc;jaegertracing/opentelemetry-cpp
 -- Configuring done
