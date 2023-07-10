@@ -2222,6 +2222,7 @@ int ECBackend::objects_read_sync(
     return -EOPNOTSUPP;
 }
 
+//
 void ECBackend::objects_read_async(
         const hobject_t &hoid,
         const list<pair<boost::tuple<uint64_t, uint64_t, uint32_t>,
