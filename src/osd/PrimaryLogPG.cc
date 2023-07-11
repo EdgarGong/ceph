@@ -14,126 +14,72 @@
  * Foundation.  See file COPYING.
  *
  */
-#include
-<errno.h>
+#include <errno.h>
 
-#include
-<charconv>
-#include
-<sstream>
-#include
-<utility>
+#include <charconv>
+#include <sstream>
+#include <utility>
 
-#include
-<boost/intrusive_ptr.hpp>
-#include
-<boost/tuple/tuple.hpp>
+#include <boost/intrusive_ptr.hpp>
+#include <boost/tuple/tuple.hpp>
 
-#include
-"PrimaryLogPG.h"
+#include "PrimaryLogPG.h"
 
-#include
-"cls/cas/cls_cas_ops.h"
-#include
-"common/CDC.h"
-#include
-"common/EventTrace.h"
-#include
-"common/ceph_crypto.h"
-#include
-"common/config.h"
-#include
-"common/errno.h"
-#include
-"common/perf_counters.h"
-#include
-"common/scrub_types.h"
-#include
-"include/compat.h"
-#include
-"json_spirit/json_spirit_reader.h"
-#include
-"json_spirit/json_spirit_value.h"
-#include
-"messages/MCommandReply.h"
-#include
-"messages/MOSDBackoff.h"
-#include
-"messages/MOSDOp.h"
-#include
-"messages/MOSDPGBackfill.h"
-#include
-"messages/MOSDPGBackfillRemove.h"
-#include
-"messages/MOSDPGLog.h"
-#include
-"messages/MOSDPGScan.h"
-#include
-"messages/MOSDPGTrim.h"
-#include
-"messages/MOSDPGUpdateLogMissing.h"
-#include
-"messages/MOSDPGUpdateLogMissingReply.h"
-#include
-"messages/MOSDRepScrub.h"
-#include
-"messages/MOSDScrubReserve.h"
-#include
-"mon/MonClient.h"
-#include
-"objclass/objclass.h"
-#include
-"osd/ClassHandler.h"
-#include
-"osdc/Objecter.h"
-#include
-"osd/scrubber/PrimaryLogScrub.h"
-#include
-"osd/scrubber/ScrubStore.h"
-#include
-"osd/scrubber/pg_scrubber.h"
+#include "cls/cas/cls_cas_ops.h"
+#include "common/CDC.h"
+#include "common/EventTrace.h"
+#include "common/ceph_crypto.h"
+#include "common/config.h"
+#include "common/errno.h"
+#include "common/perf_counters.h"
+#include "common/scrub_types.h"
+#include "include/compat.h"
+#include "json_spirit/json_spirit_reader.h"
+#include "json_spirit/json_spirit_value.h"
+#include "messages/MCommandReply.h"
+#include "messages/MOSDBackoff.h"
+#include "messages/MOSDOp.h"
+#include "messages/MOSDPGBackfill.h"
+#include "messages/MOSDPGBackfillRemove.h"
+#include "messages/MOSDPGLog.h"
+#include "messages/MOSDPGScan.h"
+#include "messages/MOSDPGTrim.h"
+#include "messages/MOSDPGUpdateLogMissing.h"
+#include "messages/MOSDPGUpdateLogMissingReply.h"
+#include "messages/MOSDRepScrub.h"
+#include "messages/MOSDScrubReserve.h"
+#include "mon/MonClient.h"
+#include "objclass/objclass.h"
+#include "osd/ClassHandler.h"
+#include "osdc/Objecter.h"
+#include "osd/scrubber/PrimaryLogScrub.h"
+#include "osd/scrubber/ScrubStore.h"
+#include "osd/scrubber/pg_scrubber.h"
 
-#include
-"OSD.h"
-#include
-"OpRequest.h"
-#include
-"PG.h"
-#include
-"Session.h"
+#include "OSD.h"
+#include "OpRequest.h"
+#include "PG.h"
+#include "Session.h"
 
 // required includes order:
-#include
-"json_spirit/json_spirit_value.h"
-#include
-"json_spirit/json_spirit_reader.h"
-#include
-"include/ceph_assert.h"  // json_spirit clobbers it
-#include
-"include/rados/rados_types.hpp"
+#include "json_spirit/json_spirit_value.h"
+#include "json_spirit/json_spirit_reader.h"
+#include "include/ceph_assert.h"  // json_spirit clobbers it
+#include "include/rados/rados_types.hpp"
 
-#ifdef
-WITH_LTTNG
-#include
-"tracing/osd.h"
+#ifdef WITH_LTTNG
+#include "tracing/osd.h"
 #else
-#define
-tracepoint(...)
+#define tracepoint(...)
 #endif
 
-#define
-dout_context cct
-#define
-dout_subsys ceph_subsys_osd
-#define
-DOUT_PREFIX_ARGS this, osd->whoami, get_osdmap()
-#undef
-dout_prefix
-#define
-dout_prefix _prefix(_dout, this)
+#define dout_context cct
+#define dout_subsys ceph_subsys_osd
+#define DOUT_PREFIX_ARGS this, osd->whoami, get_osdmap()
+#undef dout_prefix
+#define dout_prefix _prefix(_dout, this)
 
-#include
-"osd_tracer.h"
+#include "osd_tracer.h"
 
 MEMPOOL_DEFINE_OBJECT_FACTORY(PrimaryLogPG, replicatedpg, osd);
 
