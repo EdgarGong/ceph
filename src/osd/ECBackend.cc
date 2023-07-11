@@ -2222,8 +2222,22 @@ int ECBackend::objects_read_sync(
     return -EOPNOTSUPP;
 }
 
+// 异步读
+
+/**
+ * Asynchronously reads objects from ECBackend.
+ *
+ * @param hoid      The hobject_t to read.
+ * @param to_read   A list of pairs, where each pair contains a boost::tuple
+ *                  representing offset, length, and opflags, and a pair (bufferlist)
+ *                  containing a bufferlist pointer and a Context pointer.
+ * @param on_complete   A Context pointer to be called when the read operation is complete.
+ * @param fast_read A boolean indicating whether fast read is enabled.
+ */
+
 void ECBackend::objects_read_async(
         const hobject_t &hoid,
+        // ref: PrimaryLogPG.cc ctx->pending_async_reads
         const list<pair<boost::tuple<uint64_t, uint64_t, uint32_t>,
                 pair<bufferlist *, Context *> > > &to_read,
         Context *on_complete,
@@ -2280,6 +2294,13 @@ void ECBackend::objects_read_async(
                   to_read(to_read),
                   on_complete(on_complete) {}
 
+        /**
+         * Callback function called when the read operation is complete.
+         *
+         * @param results   A map of hobject_t to a pair of integer and extent_map.
+         *                  The integer represents the result of the read operation,
+         *                  and the extent_map contains the read data.
+         */
         void operator()(map<hobject_t, pair<int, extent_map> > &&results) {
             auto dpp = ec->get_parent()->get_dpp();
             ldpp_dout(dpp, 20) << "objects_read_async_cb: got: " << results
@@ -2327,6 +2348,10 @@ void ECBackend::objects_read_async(
             }
         }
 
+        /**
+         * Destructor for the callback object.
+         * Cleans up any remaining resources.
+         */
         ~cb() {
             for (auto &&i: to_read) {
                 delete i.second.second;
